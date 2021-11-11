@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body {
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;}
+* {
+    box-sizing: border-box;
+}
+
+.background-header {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background: #1CD1B0;
+    height: 38px;
+    padding-left: 10px;
+}
+
+.text-header {
+    font-size: 15px;
+    line-height: 18px;
+}
+
+#background-titulo {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 20px;
+    background: #00669F;
+    height: 101px;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+
+.titulo-principal {
+   font-size: 40px;
+   line-height: 47px;     
+}
+
+.caja-principal {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    padding-left: 140px;
+    padding-right: 140px;
+    padding-top: 80px;
+    justify-content: space-between;
+    
+}
+
+.caja1 {
+    width: 300px;
+    height: 530px;
+    background: #F3F3F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);   
+    left: 32px;
+}
+
+.caja2 {
+    width: 300px;
+    height: 530px;
+    background: #F3F3F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);   
+    left: 32px;
+}
+
+.caja3 {
+    width: 300px;
+    height: 530px;
+    background: #F3F3F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);   
+    left: 32px;
+}
+
+.icono-corazon1 {
+    position: absolute; left: 160px; top: 100px;
+}
+
+.icono-corazon2 {
+    position: absolute; left: 540px; top: 100px;
+}
+
+.icono-corazon3 {
+    position: absolute; left: 930px; top: 100px;
+}    
+
+.perfil {
+    text-align: center;
+}
+
+.descripcion-batman {
+    text-align: justify;
+}
+
+.description {
+    padding-left: 10px; padding-right: 10px;
+}
+
+.perfil-p {
+    border-radius: 360px;
+    box-shadow: 0px 5px 3px rgba(0, 0, 0, 0.25);
+}
+
+.title-batman {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.perfil1 {
+    position: absolute; top: 210px; left: 230px;
+}
+
+.perfil2 {
+    position: absolute; top: 210px; left: 615px;
+}
+
+.perfil3 {
+    position: absolute; top: 210px; left: 998px;
+}
+
+.ver-mas {
+    text-align: center;
+    font-size: 15px;
+    font-weight: lighter;
+    background-color: #00669f;
+    margin: 40px 103px 5px;
+    padding: 10px;
+}
+ .vermas {
+    text-decoration: none;
+    color: white;
+
+ }  
+
+ .footer {
+    background: #00669F;
+    height: 40px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 20px;
+    color: white;
+ }
+
+ .footer-text {
+    font-size: 16px;
+    font-weight: lighter;
+ }
